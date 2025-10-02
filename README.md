@@ -1,4 +1,4 @@
-# Bank_Customer_Churn
+# Bank_Customer_Churn_Pridiction_System
 # Abstract:
 Since keeping current clients is frequently more cost-effective than finding new ones, predicting customer churn is a crucial responsibility in the banking industry. Using a real-world bank dataset, we created a machine learning-based system in this project to forecast client attrition. Using oversampling techniques, the data was preprocessed to accommodate missing values, encode categorical features, and balance the distribution of classes. Three models—XGBoost Classifier, Random Forest Classifier, and Logistic Regression—were trained and assessed.
 Accuracy, precision, recall, F1-score, and confusion matrices were used to evaluate performance. Although XGBoost and Logistic Regression produced results that were competitive, the Random Forest Classifier outperformed the others overall, tolerating data imbalance and capturing intricate feature relationships with ease. Random Forest was chosen as the last model to be deployed as a result.
